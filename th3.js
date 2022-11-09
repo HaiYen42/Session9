@@ -1,0 +1,14 @@
+let name=prompt("What is your name ?")
+let age=prompt("How old are you ?")
+let gender=prompt("What is your gender?")
+let infor=prompt("What is your education")
+let edu=prompt("What is your education level")
+let work1=prompt("What is your first work ?")
+let work2=prompt("What is your second work ?")
+document.getElementById("ten").innerHTML=name
+document.getElementById("tuoi").innerHTML=age
+document.getElementById("gioitinh").innerHTML=gender
+document.getElementById("vanhoa").innerHTML=infor
+document.getElementById("hocvan").innerHTML=edu
+document.getElementById("cv1").innerHTML=work1
+document.getElementById("cv2").innerHTML=work2
